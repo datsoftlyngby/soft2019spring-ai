@@ -29,7 +29,8 @@ printing *the shape of* the four variables: `x_train`, `y_train`, `x_test` and
 the [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html) for examples on
 how to do this).
 
-Hand in
+Hand in:
+
 * the instantiation of the k-fold cross-validator
 * a loop that prints the *shape* of `x_train`, `y_train`, `x_test` and `y_test`
 
@@ -45,7 +46,8 @@ pipelines*.
 
 For now the default parameters are fine.
 
-Hand in 
+Hand in:
+
 * the code for constructing the four pipelines
 * one line of text per model describing how you think the classifier will perform, given the data type you are working with (voice)
 
@@ -66,7 +68,8 @@ for model in ... :
     print(score)
 ```
 
-Hand in
+Hand in:
+
 * a list per model (four lists in total) of 10 values each, showing the scores of the 10 folds,
 * at least one paragraph of text that describes what the 'score' means
 * at least one paragraph of text that describes why the scores are different
@@ -85,7 +88,8 @@ Now repeat the above validation code, where you run the
 `cross_val_score` for *each* of the four pipelines. But this 
 time the `StandardScaler` is included in the pipeline.
 
-Hand in
+Hand in:
+
 * the code for your new pipelines that includes the `StandardScaler`)
 * at least one line of text that describes what scaling actually is
 * the **mean** of the 10 scores of the four models (this time it's only **one** number per model
