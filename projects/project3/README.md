@@ -45,7 +45,7 @@ Runs out-of-the-box, but you should consider all variable aspects of the algorit
 #### Part 3.2: Keras Neural Networks
 The new interesting part of the this project concerns Neural Networks. Code up a network similar to what was demonstrated during lectures, week 12, namely in _'Predicting with NN.ipynb'_. 
 
-**_Hand in the code for constructing the reasoning behind your construction of the NN and the kNN. Include half a page explaining any detail that you deem valuable to discuss._**
+**_Hand in the code for constructing the NN, and your reasoning behind the chosen construction of the NN and the kNN. Include half a page explaining any detail that you deem valuable to discuss._**
 
 
 
