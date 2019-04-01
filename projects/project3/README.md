@@ -70,7 +70,7 @@ We need to experiment with our models -- how the models were trained and validat
   - Accuracy/Precision/Recall
   - ROC curve, Prec-Recall curve: ROC or P-R? Remember all that fuzz with balanced data sets...
 
-2. You should try training with
+2. You should experiment with your training on:
    1. the data set, with labels as-is (balanced data)
    2. an _un_-balanced data set, e.g. remove 60% of the male cases..
    3. an _re_-balanced data set, where you have oversampled your _un_-balanced data with the SMOTE technique.
