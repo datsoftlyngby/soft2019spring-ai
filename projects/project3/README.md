@@ -85,12 +85,12 @@ We need to experiment with our models -- how the models were trained and validat
   - Accuracy/Precision/Recall
   - ROC curve, Prec-Recall curve: ROC or P-R? Remember all that fuzz with balanced data sets...
 
-**_Hand in thorough reporting on your choices of:_**
-  **_ - features, from correlation studies in Part 1, and some common sense
-   - training and validation splits. If applicable: bagging/boosting/ensemble learning_**
-  **_ - experiments with un-/re-/balanced datasets.
-   - network topologies as of part 3.3 above._**
-  **_ - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset
+**_Hand in thorough reporting on your choices of:
+  - features, from correlation studies in Part 1, and some common sense
+  - training and validation splits. If applicable: bagging/boosting/ensemble learning
+  - experiments with un-/re-/balanced datasets.
+   - network topologies as of part 3.3 above.
+  - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset
 Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
 
 #### Hyperparameter Grid Search
