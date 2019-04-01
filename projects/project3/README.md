@@ -94,6 +94,8 @@ The hyperparameter search is given by the kNN and NN parameter input and the NNs
 
 ----------------------
 ### Part 4: The 5-feature Challenge
-This is a test of your ability to combine Part 1-3  above into one single objective. Optimize your models, using only 5 features.
+This is a test of your ability to combine Part 1-3  above into one single objective: 
+
+#### _Optimize your models, using only 5 features._
 
 **_Hand in a list of your favorite 5 features, meaning those features that give you the best performance, and that arguably are the most important 5 features. Hand in a two-page report with explanation and argument for your choices._**
