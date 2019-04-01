@@ -65,19 +65,14 @@ We need to experiment with our models -- how the models were trained and validat
   - did you do ensemble learning like _bagging_, _boosting_?
   
 2. You should experiment with your training on:
-   1. the data set, with labels as-is (balanced data)
-   2. an _un_-balanced data set, e.g. remove 60% of the male cases..
-   3. an _re_-balanced data set, where you have oversampled your _un_-balanced data with the SMOTE technique.
+   - the data set, with labels as-is (balanced data)
+   - an _un_-balanced data set, e.g. remove 60% of the male cases..
+   - an _re_-balanced data set, where you have oversampled your _un_-balanced data with the SMOTE technique.
 
 3. You should vary parameters for the Neural Network, investigating how changing the NN affects its performance. So, vary fx:
-
-  1. Network topology
-    - number of layers
-    - number of neurons
-  2. Activation functions
-  3. Bias
-  4. Initialization
-  5. Dropout 
+  - Network topology
+    - number of layers, number of neurons
+  - Activation functions, Biases, Network Initialization, Dropout rates
 
 1. You should produce adequate metrics, and accompanying plots:
 
@@ -93,7 +88,6 @@ We need to experiment with our models -- how the models were trained and validat
   - network topologies as of part 3.3 above.
   - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset 
 </strong>
-
 **_NB: Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
 
 #### Hyperparameter Grid Search
