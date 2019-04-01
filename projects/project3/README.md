@@ -85,13 +85,13 @@ We need to experiment with our models -- how the models were trained and validat
   - Accuracy/Precision/Recall
   - ROC curve, Prec-Recall curve: ROC or P-R? Remember all that fuzz with balanced data sets...
 
-**_Hand in thorough reporting on your choices of:
+**_Hand in thorough reporting on your choices of:_**
   - features, from correlation studies in Part 1, and some common sense
   - training and validation splits. If applicable: bagging/boosting/ensemble learning
   - experiments with un-/re-/balanced datasets.
-   - network topologies as of part 3.3 above.
-  - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset
-Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
+  - network topologies as of part 3.3 above.
+  - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset_**
+**_NB: Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
 
 #### Hyperparameter Grid Search
 The hyperparameter search is given by the kNN and NN parameter input and the NNs' topologies. Choose a reasonable range of parameters, making sure that you cover a good portion of the relevant parameter space.
