@@ -88,6 +88,7 @@ We need to experiment with our models -- how the models were trained and validat
   - network topologies as of part 3.3 above.
   - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset 
 </strong>
+
 **_NB: Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
 
 #### Hyperparameter Grid Search
