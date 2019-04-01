@@ -64,17 +64,17 @@ We need to experiment with our models -- how the models were trained and validat
   - Splits: stratified, random, ...?
   - did you do ensemble learning like _bagging_, _boosting_?
   
-2. You should experiment with your training on:
+1. You should experiment with your training on:
    - the data set, with labels as-is (balanced data)
    - an _un_-balanced data set, e.g. remove 60% of the male cases..
    - an _re_-balanced data set, where you have oversampled your _un_-balanced data with the SMOTE technique.
 
-3. You should vary parameters for the Neural Network, investigating how changing the NN affects its performance. So, vary fx:
+2. You should vary parameters for the Neural Network, investigating how changing the NN affects its performance. So, vary fx:
   - Network topology
     - number of layers, number of neurons
   - Activation functions, Biases, Network Initialization, Dropout rates
 
-1. You should produce adequate metrics, and accompanying plots:
+3. You should produce adequate metrics, and accompanying plots:
 
   - Confusion matrix
   - Accuracy/Precision/Recall
@@ -97,7 +97,7 @@ The hyperparameter search is given by the kNN and NN parameter input and the NNs
 
 ----------------------
 ### Part 4: The 5-feature Challenge
-This is a test of your ability to combine Part 1-3  above into one single objective: 
+This is a test of your ability to combine Parts 1-3 from above into one single objective: 
 
 #### Optimize your models, using only 5 features.
 
