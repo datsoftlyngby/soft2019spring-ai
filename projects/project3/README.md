@@ -39,13 +39,13 @@ Look into the following a bit more elaborately:
 ###  Part 2: Model construction
 We will use two models: Neural Networks and k-Nearest Neighbours. Both model classes shall be used as binary classifiers on the voice.csv data from Kaggle. The interesting thing to test is of course whether kNN does better or worse or the same as NNs.
 
-#### Part 3.1: k-Nearest Neighbours
+#### Part 2.1: k-Nearest Neighbours
 Runs out-of-the-box, but you should consider all variable aspects of the algorithm, start with scikit-learn docs, and the question of hyperparam(s?). 
 
-#### Part 3.2: Keras Neural Networks
+#### Part 2.2: Keras Neural Networks
 The new interesting part of the this project concerns Neural Networks. Code up a network similar to what was demonstrated during lectures, week 12, namely in _'Predicting with NN.ipynb'_. 
 
-**_Hand in the code for constructing the NN, and your reasoning behind the chosen construction of the NN and the kNN. Include half a page explaining any detail that you deem valuable to discuss._**
+**_Hand in the code for constructing and varying the topology of the NN, and your reasoning behind the chosen construction of the NN and the kNN. Include a one-pager explaining any detail that you deem valuable to discuss._**
 
 
 
@@ -64,12 +64,6 @@ We need to experiment with our models -- how the models were trained and validat
   - Splits: stratified, random, ...?
   - did you do ensemble learning like _bagging_, _boosting_?
   
-1. You should produce adequate metrics, and accompanying plots:
-
-  - Confusion matrix
-  - Accuracy/Precision/Recall
-  - ROC curve, Prec-Recall curve: ROC or P-R? Remember all that fuzz with balanced data sets...
-
 2. You should experiment with your training on:
    1. the data set, with labels as-is (balanced data)
    2. an _un_-balanced data set, e.g. remove 60% of the male cases..
@@ -85,7 +79,19 @@ We need to experiment with our models -- how the models were trained and validat
   4. Initialization
   5. Dropout 
 
-**_Hand in a thorough report on your choice of training and validation splits and your reasoning behind those choices. Include sufficient plots and numbers to support your conclusion on the training/validtion._**
+1. You should produce adequate metrics, and accompanying plots:
+
+  - Confusion matrix
+  - Accuracy/Precision/Recall
+  - ROC curve, Prec-Recall curve: ROC or P-R? Remember all that fuzz with balanced data sets...
+
+**_Hand in thorough reporting on your choices of:_**
+  **_ - features, from correlation studies in Part 1, and some common sense
+   - training and validation splits. If applicable: bagging/boosting/ensemble learning_**
+  **_ - experiments with un-/re-/balanced datasets.
+   - network topologies as of part 3.3 above._**
+  **_ - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset
+Your reasoning behind those choices and the outcomes is in focus here. Include sufficient plots and numbers to support your conclusions on the training/validtion._**
 
 #### Hyperparameter Grid Search
 The hyperparameter search is given by the kNN and NN parameter input and the NNs' topologies. Choose a reasonable range of parameters, making sure that you cover a good portion of the relevant parameter space.
