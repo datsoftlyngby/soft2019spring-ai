@@ -85,7 +85,7 @@ We need to experiment with our models -- how the models were trained and validat
   - features, from correlation studies in Part 1, and some common sense
   - training and validation splits. If applicable: bagging/boosting/ensemble learning
   - experiments with un-/re-/balanced datasets.
-  - network topologies as of Parts 2 & 3 above.
+  - network topologies as of Part 2 and Part 3.2 above.
   - metrics, and how metrics are influenced by un-balancing/re-balancing the dataset 
 </strong>
 
